@@ -1,0 +1,1 @@
+/Users/yuusuke/Desktop/github/Rust-introduction/100-exercises/exercises/02_basic_calculator/01_integers/target/debug/libintegers.rlib: /Users/yuusuke/Desktop/github/Rust-introduction/100-exercises/exercises/02_basic_calculator/01_integers/src/lib.rs
