@@ -1,0 +1,6 @@
+$ mkdir -p "/Users/yuusuke/Desktop/github/Rust-introduction/rust-book-brwoser/saba/target/x86_64-unknown-none/release/build/az-f44317edf74cb3a9/out/try_track_caller"
+$ cd "/Users/yuusuke/Desktop/github/Rust-introduction/rust-book-brwoser/saba/target/x86_64-unknown-none/release/build/az-f44317edf74cb3a9/out/try_track_caller"
+$ printf '%s' "// try_tra"... > "/Users/yuusuke/Desktop/github/Rust-introduction/rust-book-brwoser/saba/target/x86_64-unknown-none/release/build/az-f44317edf74cb3a9/out/try_track_caller/try_track_caller.rs"
+$ cd "/Users/yuusuke/Desktop/github/Rust-introduction/rust-book-brwoser/saba/target/x86_64-unknown-none/release/build/az-f44317edf74cb3a9/out/try_track_caller" && "/Users/yuusuke/.asdf/installs/rust/1.82.0/toolchains/nightly-2024-01-01-aarch64-apple-darwin/bin/rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "/Users/yuusuke/Desktop/github/Rust-introduction/rust-book-brwoser/saba/target/x86_64-unknown-none/release/build/az-f44317edf74cb3a9/out/try_track_caller"
